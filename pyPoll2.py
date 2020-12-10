@@ -5,8 +5,8 @@ Created on Tue Dec  8 17:56:31 2020
 @author: eardi
 """
 import csv
-filepath = "C:\\Users\\eardi\\OneDrive\\Documents\\Bootcamp\\Python\\Resource\\election_data.csv"
-#filepath = '..\\Resources\\budget_data.csv'
+#filepath = "C:\\Users\\eardi\\OneDrive\\Documents\\Bootcamp\\Python\\Resource\\election_data.csv"
+filepath = '..\\Resources\\election_data.csv'
  
 with open(filepath, 'r') as text:
     reader = csv.reader(text, delimiter=",")    
